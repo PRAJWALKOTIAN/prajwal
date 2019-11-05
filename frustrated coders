@@ -1,13 +1,12 @@
 #include<stdio.h>
-
 int main()
 { 
-int temp;
+    int temp;
     int i,j,sum=0,n;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
-        scanf("%d",&a[i]);
+    scanf("%d",&a[i]);
     for(i=0;i<n;i++)
     {
     for(j=1;j<n;j++)
